@@ -242,11 +242,11 @@ function continueStatement(num) {
   let arr = [];
   let contador = 0;
   while (contador < 10) {
-     contador++;
+    contador++;
     if (contador == 5) {
       continue;
     } else {
-      num += 2;
+      num = num + 2;
       arr.push(num);
     }
   }
